@@ -1,0 +1,36 @@
+id: be.healthdata.qermid
+canonical: https://www.healthdata.be/fhir/qermid
+name: QermidLogicalModels
+title: QERMID Register Logical Models
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2024+
+releaseLabel: draft
+jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
+description: >-
+  FHIR logical models for the Belgian QERMID (Quality Electronic Registration
+  of Medical acts, Implants and Devices) registers, managed by RIZIV/INAMI.
+  Covers Orthopride (hip, knee, total femur), Pacemakers, Coronary Angioplasty
+  (ANGIO), and Heart Valves (TAVI).
+publisher:
+  name: Healthdata.be (Sciensano)
+  url: https://www.healthdata.be
+
+pages:
+  index.md:
+    title: Home
+  registers.md:
+    title: Registers
+  codelists.md:
+    title: Code Lists
+
+menu:
+  Home: index.html
+  Registers: registers.html
+  Code Lists: codelists.html
+  Artifacts: artifacts.html
+
+parameters:
+  show-hierarchies: true
+  apply-jurisdiction: true

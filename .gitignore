@@ -1,0 +1,9 @@
+fsh-generated/
+output/
+temp/
+input-cache/
+template/
+dcd-excel/
+*.jar
+node_modules/
+package-lock.json
