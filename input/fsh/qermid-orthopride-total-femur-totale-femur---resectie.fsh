@@ -44,9 +44,9 @@ Description: "QERMID Orthopride Total Femur - Fields_Totale femur - resectie dat
 * CD_LTRLTY from laterality_63_VS (required)
 * CD_TPE_RSCT 1..1 code "Type resectie"
 * CD_TPE_RSCT from type_resection_93_VS (required)
-* CD_NR_REV 1..1 code "Hoeveelste revisie "
+* CD_NR_REV 1..1 code "Hoeveelste revisie"
 * CD_NR_REV from number_revisions_VS (required)
-* CD_PLC_IMPLANT 0..* code "Welk deel wordt vervangen? "
+* CD_PLC_IMPLANT 0..* code "Welk deel wordt vervangen?"
 * CD_PLC_IMPLANT from body_structure_113_VS (required)
 * CD_DIAGS_KNEE 0..* code "Diagnose knie"
 * CD_DIAGS_KNEE from disorder_142_VS (required)
@@ -66,7 +66,7 @@ Description: "QERMID Orthopride Total Femur - Fields_Totale femur - resectie dat
 * CD_CEM_AB from cement_name_81_VS (required)
 * CD_CEM_NO_AB 1..1 code "Naam cement"
 * CD_CEM_NO_AB from cement_name_83_VS (required)
-* TX_CEM_AB_ADDED 1..1 string "Toegevoegde antibiotica en dosis per 40g/cement "
+* TX_CEM_AB_ADDED 1..1 string "Toegevoegde antibiotica en dosis per 40g/cement"
 * CD_QERMID_TPE_IMPLANT 1..1 code "Type implantaat"
 * CD_QERMID_TPE_IMPLANT from qermid_type_implants_VS (required)
 * TX_TTL_IMPLANT_SADMI_NOTIFIC 1..1 string "Implantaat met notificatiecode"

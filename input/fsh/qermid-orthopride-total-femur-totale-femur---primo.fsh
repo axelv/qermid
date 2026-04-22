@@ -74,7 +74,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - primo data col
 * CD_DRCT_ALIGN from qualifier_117_VS (required)
 * CD_TBRST_OSTEO 1..1 code "Tuberositasosteotomie"
 * CD_TBRST_OSTEO from yn_VS (required)
-* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal  "
+* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal"
 * CD_PROC_REM_OSTS_MAT from yn_remove_fix_VS (required)
 * CD_SURGL_APPR_TROCHA 1..1 code "Via trochanteroctomie"
 * CD_SURGL_APPR_TROCHA from yn_troch_ost_VS (required)
@@ -85,7 +85,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - primo data col
 * CD_IMPLANT_KNEE_TOT_PROST 1..1 code "Type Totale knieprothese"
 * CD_IMPLANT_KNEE_TOT_PROST from implants_134_VS (required)
 * TX_IMPLANT_KNEE_TOT_PROST_OTH 1..1 string "Specifiëren ander type totale knieprothese"
-* CD_IMPLANT_INS 1..1 string "Insert "
+* CD_IMPLANT_INS 1..1 string "Insert"
 * CD_CHNG_TIB_PATELLA 1..1 code "Werd er ook een tibiaal en/of patellair deel geïmplanteerd of vervangen?"
 * CD_CHNG_TIB_PATELLA from implants_133_VS (required)
 * TX_TTL_TIB 0..1 string "Tibiale interface"
@@ -120,7 +120,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - primo data col
 * CD_CHNG_ACETAB 1..1 code "Werd er ook een acetabulair deel geïmplanteerd of vervangen?"
 * CD_CHNG_ACETAB from yn_VS (required)
 * TX_TTL_GRAFT 0..1 string "Graft"
-* CD_GRAFT_ACETAB 0..* code "Graft acetabulum  "
+* CD_GRAFT_ACETAB 0..* code "Graft acetabulum"
 * CD_GRAFT_ACETAB from graft_prosthesis_60_VS (required)
 * CD_GRAFT_AUGM 1..1 code "Augments"
 * CD_GRAFT_AUGM from yn_augm_VS (required)

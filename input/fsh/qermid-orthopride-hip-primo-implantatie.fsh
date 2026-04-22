@@ -54,9 +54,9 @@ Description: "QERMID Orthopride Hip - Fields_Primo-implantatie data collection"
 * CD_LTRLTY 1..1 code "Zijde"
 * CD_LTRLTY from laterality_63_VS (required)
 * CD_LTRLTY_HIP 0..1 string "Heup"
-* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal  "
+* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal"
 * CD_PROC_REM_OSTS_MAT from yn_remove_fix_VS (required)
-* CD_SURGL_APPR 1..1 code "Toegangsweg "
+* CD_SURGL_APPR 1..1 code "Toegangsweg"
 * CD_SURGL_APPR from surgical_approach_89_VS (required)
 * CD_PROC_SURGL_APPR 0..1 string "Procedure Type"
 * CD_SURGL_APPR_TROCHA 1..1 code "Via trochanter osteotomie"
@@ -80,7 +80,7 @@ Description: "QERMID Orthopride Hip - Fields_Primo-implantatie data collection"
 * CD_IMPLANT_HIP from implants_68_VS (required)
 * CD_ANATCL_LOC_IMPLANT_HIP 0..1 string "Heup"
 * CD_MED_DEVICE_HIP 0..1 string "Product type"
-* CD_IMPLANT_HIP_HEMI 1..1 code "Type hemi unipolaire "
+* CD_IMPLANT_HIP_HEMI 1..1 code "Type hemi unipolaire"
 * CD_IMPLANT_HIP_HEMI from implants_70_VS (required)
 * CD_IMPLANT_HIP_RESURF 1..1 code "Type resurfacing"
 * CD_IMPLANT_HIP_RESURF from implants_88_VS (required)
@@ -99,8 +99,8 @@ Description: "QERMID Orthopride Hip - Fields_Primo-implantatie data collection"
 * CD_FRICT_TORQ_HEAD 1..1 code "Kop"
 * CD_FRICT_TORQ_HEAD from friction_torque_94_VS (required)
 * TX_FRICT_TORQ_HEAD_OTH 1..1 string "Specifiëren andere kop"
-* CD_GRAFT_ACETAB 0..* string "Graft acetabulum  "
-* CD_GRAFT_FEM 0..* string "Graft femur  "
+* CD_GRAFT_ACETAB 0..* string "Graft acetabulum"
+* CD_GRAFT_FEM 0..* string "Graft femur"
 * CD_GRAFT_AUGM 1..1 code "Augments"
 * CD_GRAFT_AUGM from yn_augm_VS (required)
 * CD_GRAFT_SUPP_RING 1..1 code "Steunring"

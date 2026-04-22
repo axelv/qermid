@@ -48,9 +48,9 @@ Description: "QERMID Orthopride Knee - Fields_Resectie data collection"
 * CD_LTRLTY_KNEE 0..1 string "Knie"
 * CD_TPE_RSCT 1..1 code "Type resectie"
 * CD_TPE_RSCT from type_resection_93_VS (required)
-* CD_NR_REV 1..1 code "Hoeveelste revisie "
+* CD_NR_REV 1..1 code "Hoeveelste revisie"
 * CD_NR_REV from number_revisions_VS (required)
-* CD_SURGL_APPR 1..1 code "Toegangsweg "
+* CD_SURGL_APPR 1..1 code "Toegangsweg"
 * CD_SURGL_APPR from surgical_approach_132_VS (required)
 * CD_PROC_SURGL_APPR 0..1 string "Procedure Type"
 * CD_QERMID_TPE_IMPLANT 1..1 code "Type implantaat"

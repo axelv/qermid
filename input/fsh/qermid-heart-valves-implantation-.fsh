@@ -1,7 +1,7 @@
 Logical: heartvalvesimplantation
 Id: heart-valves-implantation-
-Title: "Heart Valves - Implantation "
-Description: "QERMID Heart Valves - Implantation  data collection"
+Title: "Heart Valves - Implantation"
+Description: "QERMID Heart Valves - Implantation data collection"
 
 * dcd_status 0..1 string "DCD status"
 * TX_CTNT_LANG_2 0..1 string "Ce formulaire n’est disponible qu’en néerlandais ou français. Veuillez sélectionner le néerlandais ou français comme langue dans vos paramètres lorsque vous remplissez ce formulaire."
@@ -15,7 +15,7 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * TX_EVENT 0..1 string "Event"
 * TX_DCD 0..1 string "DCD"
 * TX_BUSINESS_KEY 0..1 string "ID unique, Business key"
-* TX_REGN_CD 0..1 string "Code d’enregistrement "
+* TX_REGN_CD 0..1 string "Code d’enregistrement"
 * CD_NIC_TPE 0..1 code "Type de registre"
 * CD_NIC_TPE from nic_tpe_4444prefilled_VS (required)
 * TX_TTL_PAT 0..1 string "Identification du patient"
@@ -30,7 +30,7 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * CD_PAT_PLC_RESDC 1..1 code "Lieu de résidence"
 * CD_PAT_PLC_RESDC from place_of_residence12codelabel_VS (required)
 * TX_TTL_HP 0..1 string "Professionnel de santé"
-* CD_HPIN 1..1 code "Numéro d’identification du professionel de santé (INAMI) "
+* CD_HPIN 1..1 code "Numéro d’identification du professionel de santé (INAMI)"
 * CD_HPIN from hpin15codelabel_VS (required)
 * TX_TTL_PAT_DATA 0..1 string "Données patient"
 * CD_DISCS_HT 1..1 code "Discussion Heart Team"
@@ -79,7 +79,7 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * CD_VALVE_TREA 0..* code "Valves à traiter"
 * CD_VALVE_TREA from body_structure_176176_VS (required)
 * D_INTVENT 1..1 string "Date de l'intervention"
-* CD_ANEST_GEN 1..1 code "Anesthésie générale "
+* CD_ANEST_GEN 1..1 code "Anesthésie générale"
 * CD_ANEST_GEN from yn_general_anesthesia209_VS (required)
 * TX_TTL_EUROSCORE 0..1 string "Euroscore II"
 * CD_DIALY_RENAL 1..1 code "Sous dialyse rénale"
@@ -166,9 +166,9 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * CD_COMORB_NON_CARD 0..* code "Comorbidités non cardiaques qui empêcheront une bonne évolution postopératoire"
 * CD_COMORB_NON_CARD from tavi_factors_188_VS (required)
 * TX_COMORB_NON_CARD_OTH 1..1 string "Spécifier autre comorbidités non cardiaques qui empêcheront une bonne évolution postopératoire"
-* CD_FACTOR_SURG 0..* code "Facteurs qui ont influencé la décision pour une intervention chirurgicale sur la valve aortique "
+* CD_FACTOR_SURG 0..* code "Facteurs qui ont influencé la décision pour une intervention chirurgicale sur la valve aortique"
 * CD_FACTOR_SURG from tavi_factors_190_VS (required)
-* TX_FACTOR_SURG_OTH 1..1 string "Spécifier autre facteurs qui ont influencé la décision pour une intervention chirurgicale sur la valve aortique "
+* TX_FACTOR_SURG_OTH 1..1 string "Spécifier autre facteurs qui ont influencé la décision pour une intervention chirurgicale sur la valve aortique"
 * TX_TTL_PROC_AORTCVL 0..1 string "Données procédurales"
 * CD_INTVENT_TPE_AORTCVL 1..1 code "Type d'intervention"
 * CD_INTVENT_TPE_AORTCVL from procedure_210_VS (required)
@@ -342,7 +342,7 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * D_COMPLIC2_TRICUSVL_START 0..1 string "Date de début du problème"
 * D_COMPLIC2_TRICUSVL_STP 0..1 string "Date de fin du problème"
 * TX_TTL_PROC 0..1 string "Données procédurales"
-* CD_BYP_UNEXP 0..1 code "Bypass cardiopulmonaire imprévu "
+* CD_BYP_UNEXP 0..1 code "Bypass cardiopulmonaire imprévu"
 * CD_BYP_UNEXP from yn9_VS (required)
 * CD_CONVR_DUR_INTVENT 0..1 code "Conversion en intervention valvulaire chirurgicale pendant la même intervention"
 * CD_CONVR_DUR_INTVENT from yn_na170_VS (required)
@@ -367,7 +367,7 @@ Description: "QERMID Heart Valves - Implantation  data collection"
 * CD_PROB_TPE_COMPLIC4_DUR from problem_type_54prefilled_VS (required)
 * D_COMPLIC4_DUR_INTVENT_START 0..1 string "Date de début du problème"
 * D_COMPLIC4_DUR_INTVENT_STP 0..1 string "Date de fin du problème"
-* CD_DIED_DUR_INTVENT 0..1 code "Décès pendant l’intervention "
+* CD_DIED_DUR_INTVENT 0..1 code "Décès pendant l’intervention"
 * CD_DIED_DUR_INTVENT from yn_death_during_surg181_VS (required)
 * CD_STATUS_REC 0..1 string "Statut"
 * CD_DATA_SRC 0..1 string "La source de données"

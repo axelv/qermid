@@ -58,7 +58,7 @@ Description: "QERMID Orthopride Knee - Fields_Primo-implantatie data collection"
 * CD_LTRLTY 1..1 code "Zijde"
 * CD_LTRLTY from laterality_63_VS (required)
 * CD_LTRLTY_KNEE 0..1 string "Knie"
-* CD_SURGL_APPR 1..1 code "Toegangsweg "
+* CD_SURGL_APPR 1..1 code "Toegangsweg"
 * CD_SURGL_APPR from surgical_approach_132_VS (required)
 * CD_PROC_SURGL_APPR 0..1 string "Procedure Type"
 * CD_TBRST_OSTEO 1..1 code "Tuberositasosteotomie"

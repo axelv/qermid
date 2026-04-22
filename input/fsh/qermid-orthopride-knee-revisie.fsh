@@ -49,11 +49,11 @@ Description: "QERMID Orthopride Knee - Fields_Revisie data collection"
 * CD_LTRLTY 1..1 code "Zijde"
 * CD_LTRLTY from laterality_63_VS (required)
 * CD_LTRLTY_KNEE 0..1 string "Knie"
-* CD_NR_REV 1..1 code "Hoeveelste revisie "
+* CD_NR_REV 1..1 code "Hoeveelste revisie"
 * CD_NR_REV from number_revisions_VS (required)
 * CD_REV_AFTER_SPAC 1..1 code "Revisie na spacer?"
 * CD_REV_AFTER_SPAC from yn_VS (required)
-* CD_SURGL_APPR 1..1 code "Toegangsweg "
+* CD_SURGL_APPR 1..1 code "Toegangsweg"
 * CD_SURGL_APPR from surgical_approach_132_VS (required)
 * CD_PROC_SURGL_APPR 0..1 string "Procedure Type"
 * CD_TBRST_OSTEO 1..1 code "Tuberositasosteotomie"

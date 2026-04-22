@@ -41,7 +41,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * CD_LTRLTY from laterality_63_VS (required)
 * CD_ASA_CLASS 1..1 code "ASA classificatie"
 * CD_ASA_CLASS from asa_classification_VS (required)
-* CD_NR_REV 1..1 code "Hoeveelste revisie "
+* CD_NR_REV 1..1 code "Hoeveelste revisie"
 * CD_NR_REV from number_revisions_VS (required)
 * CD_USE_NAV 0..* code "Gebruik van navigatie computer"
 * CD_USE_NAV from use_navigation_122_VS (required)
@@ -75,7 +75,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * TX_DIAGS_RMRK 0..1 string "Opmerkingen"
 * CD_COMORB 0..* code "Comorbiditeit"
 * CD_COMORB from disorder_76_VS (required)
-* TX_COMORB_OTH 1..1 string "Beschrijving andere comorbiditeit "
+* TX_COMORB_OTH 1..1 string "Beschrijving andere comorbiditeit"
 * CD_PREO_PROC_KNEE 0..* code "Preoperatie van de behandelde knie"
 * CD_PREO_PROC_KNEE from procedure_127_VS (required)
 * CD_PROC_KNEE 0..1 string "Procedure Type"
@@ -83,10 +83,10 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * CD_DRCT_ALIGN from qualifier_117_VS (required)
 * CD_TBRST_OSTEO 1..1 code "Tuberositasosteotomie"
 * CD_TBRST_OSTEO from yn_VS (required)
-* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal  "
+* CD_PROC_REM_OSTS_MAT 1..1 code "Primaire procedure met wegname osteosynthese materiaal"
 * CD_PROC_REM_OSTS_MAT from yn_remove_fix_VS (required)
 * CD_PROC_HIP 0..1 string "Procedure Type"
-* TX_TTL_IMPLANT_REV 0..1 string "Implantaat na revisie "
+* TX_TTL_IMPLANT_REV 0..1 string "Implantaat na revisie"
 * CD_REV_IMPLANT_PARTS 0..* code "Gereviseerd(e) component(en) rond de knie"
 * CD_REV_IMPLANT_PARTS from implant_parts_120_VS (required)
 * CD_ANATCL_LOC_IMPLANT_KNEE 0..1 string "Knie"
@@ -112,7 +112,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * CD_PTR_CEM_AB from cement_name_81_VS (required)
 * CD_PTR_CEM_NO_AB 1..1 code "Naam cement"
 * CD_PTR_CEM_NO_AB from cement_name_83_VS (required)
-* TX_TTL_IMPLANT_REV_2 0..1 string "Implantaat na revisie "
+* TX_TTL_IMPLANT_REV_2 0..1 string "Implantaat na revisie"
 * CD_REV_FEMO 1..1 code "Femorale component gereviseerd"
 * CD_REV_FEMO from yn_VS (required)
 * CD_REV_FEMO_IMPLANT_PARTS 1..1 code "Onderdeel"
@@ -120,7 +120,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * CD_REV_ACETAB 1..1 code "Acetabulaire component gereviseerd"
 * CD_REV_ACETAB from yn_VS (required)
 * CD_REV_ACETAB_IMPLANT_PARTS 1..1 string "Onderdeel"
-* CD_IMPLANT_HIP_REV 1..1 code "Implantaat na revisie aan de heupzijde: "
+* CD_IMPLANT_HIP_REV 1..1 code "Implantaat na revisie aan de heupzijde:"
 * CD_IMPLANT_HIP_REV from implants_135_VS (required)
 * CD_ANATCL_LOC_IMPLANT_HIP 0..1 string "Heup"
 * CD_MED_DEVICE_HIP 0..1 string "Product type"
@@ -135,7 +135,7 @@ Description: "QERMID Orthopride Total Femur - Flds_Totale femur - revisie data c
 * CD_FRICT_TORQ_HEAD from friction_torque_94_VS (required)
 * TX_FRICT_TORQ_HEAD_OTH 1..1 string "Specifiëren andere kop"
 * TX_TTL_GRAFT 0..1 string "Graft"
-* CD_GRAFT_ACETAB 0..* code "Graft acetabulum  "
+* CD_GRAFT_ACETAB 0..* code "Graft acetabulum"
 * CD_GRAFT_ACETAB from graft_prosthesis_60_VS (required)
 * CD_GRAFT_AUGM 1..1 code "Augments"
 * CD_GRAFT_AUGM from yn_augm_VS (required)

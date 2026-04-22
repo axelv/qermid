@@ -29,19 +29,19 @@ Description: "QERMID Angio - Fields-Follow-up na PCI data collection"
 * CD_PAT_SEX from sexfmui_VS (required)
 * CD_PAT_PLC_RESDC 1..1 code "Woonplaats"
 * CD_PAT_PLC_RESDC from place_of_residence_VS (required)
-* TX_TTL_FU_PROC 0..1 string "FU 1 jaar na de laatste procedure "
-* CD_FU_CONSTTN 1..1 code "De patiënt werd uitgenodigd voor een follow-up consultatie bij de behandelende arts. "
+* TX_TTL_FU_PROC 0..1 string "FU 1 jaar na de laatste procedure"
+* CD_FU_CONSTTN 1..1 code "De patiënt werd uitgenodigd voor een follow-up consultatie bij de behandelende arts."
 * CD_FU_CONSTTN from ca_yn_VS (required)
 * CD_CONSTTN 1..1 code "De patiënt is op consultatie gekomen."
 * CD_CONSTTN from ca_yn_VS (required)
 * DT_CONSULT 1..1 date "Datum consultatie of datum van laatste contactname met de patiënt"
-* CD_OYFFRPCI 1..1 code "Heeft de patiënt binnen het jaar een nieuwe hospitalisatie met FFR en/of PCI ondergaan? "
+* CD_OYFFRPCI 1..1 code "Heeft de patiënt binnen het jaar een nieuwe hospitalisatie met FFR en/of PCI ondergaan?"
 * CD_OYFFRPCI from ca_yn_VS (required)
 * CD_CABG_EXECF 1..1 code "Heeft de patiënt binnen het jaar een nieuwe hospitalisatie met CABG ondergaan?"
 * CD_CABG_EXECF from ca_yn_VS (required)
-* CD_PERIOD_FLLWUP 1..1 code "De patiënt is niet op consultatie gekomen. "
+* CD_PERIOD_FLLWUP 1..1 code "De patiënt is niet op consultatie gekomen."
 * CD_PERIOD_FLLWUP from ca_no_consult_VS (required)
-* CD_FU_AFTER_CONSTTN 1..1 code "De patiënt werd niet uitgenodigd voor een follow-up consultatie bij de behandende arts. "
+* CD_FU_AFTER_CONSTTN 1..1 code "De patiënt werd niet uitgenodigd voor een follow-up consultatie bij de behandende arts."
 * CD_FU_AFTER_CONSTTN from ca_no_invite_VS (required)
 * TX_NO_CONSTTN_OTH 1..1 string "Motivatie andere reden"
 * TX_TTL_DATE 0..1 string "Datum"

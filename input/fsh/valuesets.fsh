@@ -4,7 +4,12 @@ ValueSet: asa_classification_VS
 Id: asa-classification-VS
 Title: "ASA_CLASSIFICATION Value Set"
 Description: "Value set for ASA_CLASSIFICATION"
-* include codes from system asa_classification_CS
+* $SCT#413495001 "ASA klasse I"
+* $SCT#413496000 "ASA klasse II"
+* $SCT#413497009 "ASA klasse III"
+* $SCT#413498004 "ASA klasse IV"
+* $SCT#413499007 "ASA klasse V"
+* $SCT#413500003 "ASA klasse VI"
 
 ValueSet: billing_code_172codelabel_VS
 Id: billing-code-172codelabel-VS
@@ -70,31 +75,39 @@ ValueSet: body_structure_113_VS
 Id: body-structure-113-VS
 Title: "BODY_STRUCTURE_113 Value Set"
 Description: "Value set for BODY_STRUCTURE_113"
-* include codes from system body_structure_113_CS
+* $SCT#72696002 "knieregio"
+* $SCT#29836001 "heupregio"
+* $SCT#53394001 "diafysair"
 
 ValueSet: body_structure_114_VS
 Id: body-structure-114-VS
 Title: "BODY_STRUCTURE_114 Value Set"
 Description: "Value set for BODY_STRUCTURE_114"
-* include codes from system body_structure_114_CS
+* $SCT#72696002 "knieregio"
 
 ValueSet: body_structure_176_VS
 Id: body-structure-176-VS
 Title: "BODY_STRUCTURE_176 Value Set"
 Description: "Value set for BODY_STRUCTURE_176"
-* include codes from system body_structure_176_CS
+* $SCT#34202007 "aortaklep"
+* $SCT#91134007 "mitralisklep"
+* $SCT#39057004 "pulmonalisklep"
+* $SCT#46030003 "tricuspidalisklep"
 
 ValueSet: body_structure_176176_VS
 Id: body-structure-176176-VS
 Title: "BODY_STRUCTURE_176 (176) Value Set"
 Description: "Value set for BODY_STRUCTURE_176 (176)"
-* include codes from system body_structure_176176_CS
+* $SCT#34202007 "aortaklep"
+* $SCT#91134007 "mitralisklep"
+* $SCT#39057004 "pulmonalisklep"
+* $SCT#46030003 "tricuspidalisklep"
 
 ValueSet: body_structure_78_VS
 Id: body-structure-78-VS
 Title: "BODY_STRUCTURE_78 Value Set"
 Description: "Value set for BODY_STRUCTURE_78"
-* include codes from system body_structure_78_CS
+* $SCT#29836001 "heupregio"
 
 ValueSet: ca_anatomical_location_1_VS
 Id: ca-anatomical-location-1-VS
@@ -388,7 +401,10 @@ ValueSet: disorder_139_VS
 Id: disorder-139-VS
 Title: "DISORDER_139 Value Set"
 Description: "Value set for DISORDER_139"
-* include codes from system disorder_139_CS
+* $SCT#108369006 "tumor"
+* $SCT#38320009 "posttraumatisch"
+* $SCT#40733004 "infectieziekte"
+* $SCT#74964007 "andere"
 
 ValueSet: disorder_141_VS
 Id: disorder-141-VS
@@ -496,25 +512,34 @@ ValueSet: friction_torque_104_VS
 Id: friction-torque-104-VS
 Title: "FRICTION_TORQUE_104 Value Set"
 Description: "Value set for FRICTION_TORQUE_104"
-* include codes from system friction_torque_104_CS
+* $SCT#463626004 "metaal-op-polyetheen totale heupprothese"
+* $SCT#467789002 "keramiek-op-polyethyleen totale heupprothese"
+* $SCT#468102004 "keramiek-op-keramiek totale heupprothese"
+* $SCT#463275007 "metaal-op-metaal totale heupprothese"
+* $SCT#74964007 "andere"
 
 ValueSet: friction_torque_94_VS
 Id: friction-torque-94-VS
 Title: "FRICTION_TORQUE_94 Value Set"
 Description: "Value set for FRICTION_TORQUE_94"
-* include codes from system friction_torque_94_CS
+* $SCT#463559008 "metalen femurkopprothese"
+* $SCT#467987006 "keramische femurkopprothese"
+* $SCT#74964007 "andere"
 
 ValueSet: friction_torque_95_VS
 Id: friction-torque-95-VS
 Title: "FRICTION_TORQUE_95 Value Set"
 Description: "Value set for FRICTION_TORQUE_95"
-* include codes from system friction_torque_95_CS
+* $SCT#463626004 "metaal-op-polyetheen totale heupprothese"
+* $SCT#74964007 "andere"
 
 ValueSet: friction_torque_96_VS
 Id: friction-torque-96-VS
 Title: "FRICTION_TORQUE_96 Value Set"
 Description: "Value set for FRICTION_TORQUE_96"
-* include codes from system friction_torque_96_CS
+* $SCT#463626004 "metaal-op-polyetheen totale heupprothese"
+* $SCT#468102004 "keramiek-op-keramiek totale heupprothese"
+* $SCT#463275007 "metaal-op-metaal totale heupprothese"
 
 ValueSet: followup_na_pciprefilled_VS
 Id: followup-na-pciprefilled-VS
@@ -532,7 +557,10 @@ ValueSet: graft_prosthesis_60_VS
 Id: graft-prosthesis-60-VS
 Title: "GRAFT_PROSTHESIS_60 Value Set"
 Description: "Value set for GRAFT_PROSTHESIS_60"
-* include codes from system graft_prosthesis_60_CS
+* $SCT#261224003 "allograft"
+* $SCT#256647008 "autograft"
+* $SCT#256636001 "botsubstituut"
+* $SCT#260413007 "geen"
 
 ValueSet: hpin_VS
 Id: hpin-VS
@@ -598,13 +626,20 @@ ValueSet: implants_128_VS
 Id: implants-128-VS
 Title: "IMPLANTS_128 Value Set"
 Description: "Value set for IMPLANTS_128"
-* include codes from system implants_128_CS
+* $SCT#466873001 "unicondylaire knieprothese"
+* $SCT#313062001 "totale knieprothese"
+* $SCT#466936000 "bicompartimentele knieprothese"
+* $SCT#303722003 "patellofemorale gewrichtsprothese"
 
 ValueSet: implants_129_VS
 Id: implants-129-VS
 Title: "IMPLANTS_129 Value Set"
 Description: "Value set for IMPLANTS_129"
-* include codes from system implants_129_CS
+* $SCT#466873001 "unicondylaire knieprothese"
+* $SCT#313062001 "totale knieprothese"
+* $SCT#466936000 "bicompartimentele knieprothese"
+* $SCT#303722003 "patellofemorale gewrichtsprothese"
+* $SCT#701730002 "partiële resurfacingprothese van het femur ter hoogte van de knie"
 
 ValueSet: implants_130_VS
 Id: implants-130-VS
@@ -682,7 +717,10 @@ ValueSet: implant_parts_118_VS
 Id: implant-parts-118-VS
 Title: "IMPLANT_PARTS_118 Value Set"
 Description: "Value set for IMPLANT_PARTS_118"
-* include codes from system implant_parts_118_CS
+* $SCT#261011007 "knieprothese vast"
+* $SCT#262111007 "knieprothese mobiel/rotatief"
+* $SCT#466805007 "all-polyethyleen tibia component van een knieprothese"
+* $SCT#260413007 "geen"
 
 ValueSet: implant_parts_119_VS
 Id: implant-parts-119-VS
@@ -700,7 +738,8 @@ ValueSet: implant_parts_124_VS
 Id: implant-parts-124-VS
 Title: "IMPLANT_PARTS_124 Value Set"
 Description: "Value set for IMPLANT_PARTS_124"
-* include codes from system implant_parts_124_CS
+* $SCT#261011007 "knieprothese vast"
+* $SCT#262111007 "knieprothese mobiel/rotatief"
 
 ValueSet: implant_parts_65_VS
 Id: implant-parts-65-VS
@@ -718,7 +757,8 @@ ValueSet: laterality_63_VS
 Id: laterality-63-VS
 Title: "LATERALITY_63 Value Set"
 Description: "Value set for LATERALITY_63"
-* include codes from system laterality_63_CS
+* $SCT#7771000 "links"
+* $SCT#24028007 "rechts"
 
 ValueSet: linkqermid_implt_322_34901_34902_34903date_from_VS
 Id: linkqermid-implt-322-34901-34902-34903date-from-VS
@@ -802,25 +842,25 @@ ValueSet: measurement_name_159prefilled_VS
 Id: measurement-name-159prefilled-VS
 Title: "MEASUREMENT_NAME_159 prefilled Value Set"
 Description: "Value set for MEASUREMENT_NAME_159 prefilled"
-* include codes from system measurement_name_159prefilled_CS
+* $SCT#134438001 "Canadian Cardiovascular Society classification of angina"
 
 ValueSet: measurement_name_160prefilled_VS
 Id: measurement-name-160prefilled-VS
 Title: "MEASUREMENT_NAME_160 prefilled Value Set"
 Description: "Value set for MEASUREMENT_NAME_160 prefilled"
-* include codes from system measurement_name_160prefilled_CS
+* $SCT#420816009 "New York Heart Association Classification"
 
 ValueSet: measurement_name_161prefilled_VS
 Id: measurement-name-161prefilled-VS
 Title: "MEASUREMENT_NAME_161 prefilled Value Set"
 Description: "Value set for MEASUREMENT_NAME_161 prefilled"
-* include codes from system measurement_name_161prefilled_CS
+* $SCT#250908004 "Left ventricular ejection fraction"
 
 ValueSet: measurement_name_164prefilled_VS
 Id: measurement-name-164prefilled-VS
 Title: "MEASUREMENT_NAME_164 prefilled Value Set"
 Description: "Value set for MEASUREMENT_NAME_164 prefilled"
-* include codes from system measurement_name_164prefilled_CS
+* $SCT#250768007 "Pulmonary artery systolic pressure"
 
 ValueSet: modulesadmi_VS
 Id: modulesadmi-VS
@@ -862,7 +902,8 @@ ValueSet: patient_status_204_VS
 Id: patient-status-204-VS
 Title: "PATIENT_STATUS_204 Value Set"
 Description: "Value set for PATIENT_STATUS_204"
-* include codes from system patient_status_204_CS
+* $SCT#438949009 "levend"
+* $SCT#419099009 "dood"
 
 ValueSet: place_of_residence_VS
 Id: place-of-residence-VS
@@ -1180,19 +1221,19 @@ ValueSet: problem_type_111_VS
 Id: problem-type-111-VS
 Title: "PROBLEM_TYPE_111 Value Set"
 Description: "Value set for PROBLEM_TYPE_111"
-* include codes from system problem_type_111_CS
+* $SCT#404684003 "klinische bevinding"
 
 ValueSet: problem_type_54prefilled_VS
 Id: problem-type-54prefilled-VS
 Title: "PROBLEM_TYPE_54 prefilled Value Set"
 Description: "Value set for PROBLEM_TYPE_54 prefilled"
-* include codes from system problem_type_54prefilled_CS
+* $SCT#116223007 "complicatie"
 
 ValueSet: problem_type_98_VS
 Id: problem-type-98-VS
 Title: "PROBLEM_TYPE_98 Value Set"
 Description: "Value set for PROBLEM_TYPE_98"
-* include codes from system problem_type_98_CS
+* $SCT#282291009 "interpretatie van diagnose"
 
 ValueSet: problem_type_98prefilled_VS
 Id: problem-type-98prefilled-VS
@@ -1204,37 +1245,47 @@ ValueSet: procedure_109_VS
 Id: procedure-109-VS
 Title: "PROCEDURE_109 Value Set"
 Description: "Value set for PROCEDURE_109"
-* include codes from system procedure_109_CS
+* $SCT#398010007 "implantatie heupprothese"
 
 ValueSet: procedure_125_VS
 Id: procedure-125-VS
 Title: "PROCEDURE_125 Value Set"
 Description: "Value set for PROCEDURE_125"
-* include codes from system procedure_125_CS
+* $SCT#392238003 "implantatie knieprothese"
 
 ValueSet: procedure_127_VS
 Id: procedure-127-VS
 Title: "PROCEDURE_127 Value Set"
 Description: "Value set for PROCEDURE_127"
-* include codes from system procedure_127_CS
+* $SCT#50082000 "osteosynthese – tibia"
+* $SCT#271505003 "osteosynthese – femur"
+* $SCT#150062003 "osteotomie"
+* $SCT#76992000 "synovectomie"
+* $SCT#6148000 "meniscectomie"
+* $SCT#239431009 "ACL reconstructie"
+* $SCT#74964007 "andere"
+* $SCT#260413007 "geen"
 
 ValueSet: procedure_210_VS
 Id: procedure-210-VS
 Title: "PROCEDURE_210 Value Set"
 Description: "Value set for PROCEDURE_210"
-* include codes from system procedure_210_CS
+* $SCT#35350000 "implantatie van aortaklepprothese of synthetisch apparaat"
+* $SCT#232834008 "aortaklepplastie"
 
 ValueSet: procedure_211_VS
 Id: procedure-211-VS
 Title: "PROCEDURE_211 Value Set"
 Description: "Value set for PROCEDURE_211"
-* include codes from system procedure_211_CS
+* $SCT#77181006 "implantatie van mitralisklepprothese of synthetisch apparaat"
+* $SCT#384642005 "mitraalklepplastie"
 
 ValueSet: procedure_212_VS
 Id: procedure-212-VS
 Title: "PROCEDURE_212 Value Set"
 Description: "Value set for PROCEDURE_212"
-* include codes from system procedure_212_CS
+* $SCT#8069005 "implantatie van tricuspidalisklepprothese of synthetisch apparaat"
+* $SCT#384643000 "tricuspidalisklepplastie"
 
 ValueSet: procedure_213_VS
 Id: procedure-213-VS
@@ -1246,19 +1297,20 @@ ValueSet: procedure_214_VS
 Id: procedure-214-VS
 Title: "PROCEDURE_214 Value Set"
 Description: "Value set for PROCEDURE_214"
-* include codes from system procedure_214_CS
+* $SCT#79917009 "implantatie van pulmonalisklepprothese of synthetisch apparaat"
+* $SCT#386749005 "pulmonalisklepplastie"
 
 ValueSet: product_type_110_VS
 Id: product-type-110-VS
 Title: "PRODUCT_TYPE_110 Value Set"
 Description: "Value set for PRODUCT_TYPE_110"
-* include codes from system product_type_110_CS
+* $SCT#67270000 "heup prothese"
 
 ValueSet: product_type_116_VS
 Id: product-type-116-VS
 Title: "PRODUCT_TYPE_116 Value Set"
 Description: "Value set for PRODUCT_TYPE_116"
-* include codes from system product_type_116_CS
+* $SCT#109228008 "knie prothese"
 
 ValueSet: qermid_explt_322_34901_34902_34903_lim106_126387_VS
 Id: qermid-explt-322-34901-34902-34903-lim106-126387-VS
@@ -1408,13 +1460,19 @@ ValueSet: sex_VS
 Id: sex-VS
 Title: "SEX Value Set"
 Description: "Value set for SEX"
-* include codes from system sex_CS
+* $SCT#248152002 "vrouw"
+* $SCT#248153007 "man"
+* $SCT#32570681000036106 "onbepaald geslacht"
+* $SCT#261665006 "onbekend"
 
 ValueSet: sex11_VS
 Id: sex11-VS
 Title: "SEX (11) Value Set"
 Description: "Value set for SEX (11)"
-* include codes from system sex11_CS
+* $SCT#248152002 "vrouw"
+* $SCT#248153007 "man"
+* $SCT#32570681000036106 "onbepaald geslacht"
+* $SCT#261665006 "onbekend"
 
 ValueSet: surgical_approach_132_VS
 Id: surgical-approach-132-VS
@@ -1582,7 +1640,8 @@ ValueSet: yn_death_VS
 Id: yn-death-VS
 Title: "YN_DEATH Value Set"
 Description: "Value set for YN_DEATH"
-* include codes from system yn_death_CS
+* $SCT#419099009 "ja"
+* $SCT#438949009 "nee"
 
 ValueSet: yn_death_during_surg181_VS
 Id: yn-death-during-surg181-VS

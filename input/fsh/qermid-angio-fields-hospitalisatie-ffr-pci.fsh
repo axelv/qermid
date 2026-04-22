@@ -256,7 +256,7 @@ Description: "QERMID Angio - Fields-Hospitalisatie FFR_PCI data collection"
 * NR_BACATH_2 1..1 decimal "Aantal ballonkatheters"
 * CD_MODEL_DEB_2 1..1 code "Model DEB"
 * CD_MODEL_DEB_2 from qermid_implt_32404codelabel_VS (required)
-* CD_DEB_VFROM_2 0..1 code "DEB validfrom "
+* CD_DEB_VFROM_2 0..1 code "DEB validfrom"
 * CD_DEB_VTO_2 0..1 code "DEB validto"
 * NR_DEB_2 1..1 decimal "Aantal model DEB"
 * CD_MODEL_BMS_2 1..1 code "Model BMS"

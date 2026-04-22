@@ -32,5 +32,4 @@ menu:
   Artifacts: artifacts.html
 
 parameters:
-  show-hierarchies: true
   apply-jurisdiction: true
