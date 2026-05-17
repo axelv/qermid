@@ -24,12 +24,15 @@ pages:
     title: Registers
   codelists.md:
     title: Code Lists
+  downloads.md:
+    title: Downloads
 
 menu:
   Home: index.html
   Registers: registers.html
   Code Lists: codelists.html
   Artifacts: artifacts.html
+  Downloads: downloads.html
 
 parameters:
   apply-jurisdiction: true
